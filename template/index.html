@@ -55,6 +55,7 @@
                 <li><a href="#courses-section" class="nav-link">Courses</a></li>
                 <li><a href="#programs-section" class="nav-link">Programs</a></li>
                 <li><a href="#teachers-section" class="nav-link">Teachers</a></li>
+                <li><a href="Register/Register" >Register</a></li>
               </ul>
             </nav>
           </div>
@@ -130,7 +131,7 @@
             {% for cour in cours %}
             <div class="course bg-white h-100 align-self-stretch">
               <figure class="m-0">
-                <a href="course-single.html"><img src="{{cour.image.url}}" alt="Image" class="img-fluid"></a>
+                <a href="course-single.html"><img src= "{{cour.image.url}}" alt="Image" class="img-fluid"></a>
               </figure>
               <div class="course-inner-text py-4 px-4">
                 <span class="course-price">${{cour.price}}</span>
